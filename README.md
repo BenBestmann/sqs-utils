@@ -45,9 +45,7 @@ You can also provide a pre-configured instance of the [AWS SQS](http://docs.aws.
 
 ```js
 const queue = new SQSUtils({
-  accessKeyId: 'AWS-ACCESS-KEY-ID',
-  secretAccessKey: 'AWS-ACCESS-KEY',
-  region: 'AWS-REGION',
+  aws: new AWS.SQS(),
   queueUrl: 'https://sqs.eu-west-1.amazonaws.com/account-id/queue-name'
 });
 ```
