@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime Data
+pids
+*.pid
+*.seed
+
+# Dependency Directories
+node_modules
+jspm_packages
+
+# Code Coverage Directories
+lib-cov
+coverage
+
+# Other Node Stuff
+.npm
+.grunt
+.lock-wscript
+.node_repl_history
+
+# Ignore documentation
+/docs
+
+# JetBrains IDE: IntelliJ, WebStorm
+.idea/
+*.ipr
+*.iml
+*.iws
+/out
+/.idea_modules
+
+# OSX Files
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes

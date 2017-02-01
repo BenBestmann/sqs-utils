@@ -1,0 +1,25 @@
+{
+  "name": "sqs-utils",
+  "version": "1.0.0",
+  "description": "Amazon SQS applications without the boilerplate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenBestmann/sqs-utils.git"
+  },
+  "keywords": [
+    "sqs",
+    "aws",
+    "amazon",
+    "queue"
+  ],
+  "author": "Benjamin Bestmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenBestmann/sqs-utils/issues"
+  },
+  "homepage": "https://github.com/BenBestmann/sqs-utils#readme"
+}
